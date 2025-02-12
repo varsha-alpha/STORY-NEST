@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 100px;
+    width:100%;
+    display: flex;
+    padding: 2vw 7vw;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+    background-color: transparent;
+    color: black;
+    position: relative;
+    z-index: 2;
+}
+ 
+#nav #input{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 3vw;
+  width: 17vw;
+  background-color: lightgrey;
+  border-radius: 25px;
+} 
+
+#nav #input input{
+  background-color: lightgrey;
+  font-size: 1vw;
+border: none;
+outline: none;
+}
+#nav h1{
+    font-family: cursive ;
+    font-size: 49px;
+    font-weight :180px;
+}
+
+#nav a{
+    height: 3vw;
+    width: 8vw;
+ background-color: rgb(52, 52, 121);
+ color: white;
+ font-family: cursive;
+  font-size: medium;
+  text-transform: capitalize;
+  gap: 2vw;
+  position: relative;
+ border-radius: 10vw;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+text-decoration: none;
+margin-top: -1vw;
+}
+
+ 
+
+#part1{
+    position: relative; /* Keep it in normal document flow */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh; /* Full screen height */
+    
+}
+  #part1 img{
+    position: absolute;
+    height: 90vh;
+    width: 100%;
+    padding-left: 26vw;
+ }
+ #text{
+    position: relative;
+    z-index: 1;
+     top: 4px;
+     left: 4vw;
+ }
+ #text h1{
+     font-size: 50px;
+     font-weight: bolder;
+ }
+ #text h3{
+   font-size: 22px;
+   font-weight: 100;
+   margin-top: 2vw;
+ }
+ #part2 {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5rem;
+    padding: 15px 12px;
+}
+ 
+  #part2 img{
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+#storytext{
+    flex: 1;
+text-transform: capitalize;
+}
+#storytext h1{
+    font-size: 3rem;
+}
+#storytext p{
+    font-size: 1.5rem;
+    padding-top: 1vw;
+    font-weight: 100;
+}
+#part3{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; 
+    gap: 2rem;
+  padding: 36px 35px;
+}
+
+  #part3 img{
+    height: 440px;
+    border-radius: 10px;
+    width: 50%; 
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+    z-index: -1;
+  }
+  #textofpart3{
+    flex: 1;
+text-transform: capitalize;
+position: relative;
+top: 100px;
+}
+#textofpart3 h1{
+    font-size: 3rem;
+    white-space: nowrap;
+}
+#textofpart3 p{
+    font-size: 1.5rem;
+    padding-top: 1vw;
+    font-weight: 100;
+}
+#part4{ 
+    display: flex;
+    justify-content: space-between;
+   
+    gap: 2rem;
+  padding: 36px 35px;
+}
+
+  #part4 img{
+    height: 440px;
+    border-radius: 10px;
+    width: 50%; 
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+    z-index: -1;
+  }
+  #textofpart4{
+    flex: 1;
+text-transform: capitalize;
+position: relative;
+top: 100px;
+}
+#textofpart4 h1{
+    font-size: 3rem;
+    white-space: nowrap;
+}
+#textofpart4 p{
+    font-size: 1.5rem;
+    padding-top: 1vw;
+    font-weight: 100;
+}
+
+#part5{ 
+    display: flex;
+    justify-content: space-between;
+   
+    gap: 2rem;
+  padding: 36px 35px;
+}
+
+  #part5 img{
+    height: 440px;
+    border-radius: 10px;
+    width: 50%; 
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+    z-index: -1;
+  }
+  #textofpart5{
+    flex: 1;
+text-transform: capitalize;
+position: relative;
+top: 100px;
+}
+#textofpart5 h1{
+    font-size: 3rem;
+    white-space: nowrap;
+}
+#textofpart5 p{
+    font-size: 1.5rem;
+    padding-top: 1vw;
+    font-weight: 100;
+}
+
+footer {
+  background: #111;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-logo h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-socials a {
+  color: #fff;
+  margin: 0 8px;
+  font-size: 20px;
+}
+
+.footer-bottom {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.story{
+  padding: 4vw 4vw;
+}
+.story h2{
+  font-size: 3vw;
+  position: relative;
+  left: 20vw;
+}
+.story p{
+  position: relative;
+  font-size: 2vw;
+  gap: 1vw;
+  padding: 2vw;
+}
